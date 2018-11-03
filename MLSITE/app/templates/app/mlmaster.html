@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" > {#xmlns="http://www.w3.org/1999/xhtml"#}
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    {%load staticfiles%}
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
+    <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top ">
+        <div class="container" >
+        <div class="navbar-header" >
+            <a class="navbar-brand" href="#">MLSITE</a>
+        </div>
+            <ul class="nav navbar-nav">
+                <li class="Active"><a href="#">Home</a></li>
+                <li><a href="#">RFM Analysis</a> </li>
+                <li><a href="#">Regressions</a> </li>
+                <li><a href="#">Classifications</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div>
+        {% block content%}  {%endblock%}   
+        
+        <hr />
+        <footer>
+            <p style="text-align:center">{{year}}- ML Site</p>
+        </footer>
+    </div>
+    <script src="{% static 'app/scripts/jquery-1.10.2.min.js' %}"></script>
+    <script src="{% static 'app/scripts/bootstrap.min.js'%}"></script>
+    <script src="{% static 'app/scripts/respond.min.js'%}"></script>
+    {%block scripts %}{%endblock%}
+</body>
+</html>

@@ -1,0 +1,44 @@
+﻿{% extends 'app/mlmaster.html'%}
+
+{% block content %}
+<div >
+    <form  action="/insert_user_profile/" method="post" class="form-horizontal">
+        {% csrf_token%}
+        <table border="0" class="table">
+    <tr>
+        <td>
+        <span>UserName:</span>  <input type="text" name="username" />
+        </td>
+    </tr>
+    <tr>
+        <td>
+         <span>Password:</span>  <input type="password" name="password" />
+        </td>
+    </tr>
+        <tr>
+        <td>
+          <span>Email ID: </span>  <input type="text" name="email"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+               <span>Select Gender: </span>  <span>Male</span> <input type="radio" name="gender" value="Male" /> 
+                <span>Female</span>  <input type="radio" name="gender" value="Female"/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type="submit" formaction="" name="save" value="SAVE" />
+        </td>
+    </tr>
+            <tr>
+                <td>
+                    {%if status%}
+                    {{status}}
+                    {%endif%}
+                </td>
+            </tr>
+</table>
+    </form>
+</div>
+{%endblock%}

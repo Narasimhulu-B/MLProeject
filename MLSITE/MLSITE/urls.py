@@ -39,6 +39,7 @@ urlpatterns = [
     #    name='logout'),
     url(r'^get_userdata$',app.views.get_userdata,name="get_userdata"),
     url(r'^insert_userdata$',app.views.insert_userdata,name="insert_userdata"),
+    url(r'^insert_user_profile$',app.views.insert_user_profile,name="insert_user_profile"),
     # Uncomment the admin/doc line below to enable admin documentation:
      #url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 

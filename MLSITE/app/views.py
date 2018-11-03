@@ -49,6 +49,24 @@ def about(request):
         }
     )
 
+def insert_user_profile(request):
+    try:
+       if request.method=="POST" :
+            user_name= request.POST["username"]
+            password= request.POST["password"]
+            email= request.POST["email"]
+            gender= request.POST["gender"]
+            status=insert_user_data(user_name,password,email,gender)
+            if status:
+                return render(request,'usertemplates/userdetails.html',{"status":"Inserted Sucessfully"})
+            else:
+                return render(request,'usertemplates/userdetails.html',{"status":"Not Inserted"})
+       else:
+            return render(request,'usertemplates/userdetails.html')
+
+    except Exception as ex :
+        print(ex.args[0])
+        return render(request,'usertemplates/userdetails.html',{"status":"Not Inserted"})
 
 #from django.http import HttpResponse
 #from django.template import loader
@@ -102,12 +120,12 @@ def getuserdata():
     except Exception as ex :
         print(ex.args[0])
 
-def insert_user_data():
+def insert_user_data(uname,upassword,email,gender):
     try:
-        u=RP_USER_PROFILE(user_name="Sai",uesr_password="123456",email="sai.s@gmail.com",gender="Male")
+        u=RP_USER_PROFILE(user_name=uname,uesr_password=upassword,email=email,gender=gender)
         u.save()
-        f=RP_USER_PROFILE(user_name="shanthi",uesr_password="123456",email="shanthi.s@gmail.com",gender="Female")
-        f.save()
+        #f=RP_USER_PROFILE(user_name="shanthi",uesr_password="123456",email="shanthi.s@gmail.com",gender="Female")
+        #f.save()
         return True
     except Exception as ex:
         print(ex.args[0])
