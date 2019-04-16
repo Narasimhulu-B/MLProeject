@@ -1,0 +1,64 @@
+﻿{% extends 'app/mlmaster.html'%}
+{% block content%}
+<style>
+    table.dataTable thead th div.DataTables_sort_wrapper {
+    padding-right: 2px;
+   position: relative;
+    font-size: 12px;
+    font-weight: bolder;
+}
+table.dataTable tbody th, table.dataTable tbody td {
+    padding: 3px 6px;;
+    font-size: 12px;
+}
+</style>
+<form action="/getcountries/" method="post" title="Countries">
+    <div class="">
+        {%if countrylist%}
+        <table id="tblcountries" style="width:150px" class="table table-responsive">
+            <thead>
+            <tr>
+                
+                {%for col in cols%}
+                <th>
+                    {{col}}
+                </th>
+                {%endfor%}
+            </tr>
+            </thead>
+
+            <tbody>
+            {%for row in countrylist %}
+            <tr>
+                <td>{{row.Code}}</td>
+                <td>{{row.Name}}</td>
+                <td>{{row.Continent}}</td>
+                <td>{{row.Region}}</td>
+                <td>{{row.IndepYear}}</td>
+                <td>{{row.Population}}</td>
+                <td>{{row.LifeExpectancy}}</td>
+                <td>{{row.GNP}}</td>
+                <td>{{row.GNPOld}}</td>
+                <td>{{row.LocalName}}</td>
+                <td>{{row.GovernmentForm}}</td>
+                <td>{{row.HeadOfState}}</td>
+                <td>{{row.Capital}}</td>
+            </tr>
+
+            {%endfor%}
+                </tbody>
+        </table>
+        {%endif%}
+    </div>
+</form>
+{% endblock %}
+
+{%block scripts%}
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#tblcountries').DataTable();
+    });
+</script>
+{%endblock%}

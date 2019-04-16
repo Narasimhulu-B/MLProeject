@@ -1,0 +1,703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\mlsitepublish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app/forms.py">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/migrations/__init__.py">
+      <publishTime>03/14/2016 15:42:06</publishTime>
+    </File>
+    <File Include="app/models.py">
+      <publishTime>02/12/2019 23:05:33</publishTime>
+    </File>
+    <File Include="app/static/app/content/bootstrap.css">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/content/bootstrap.min.css">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/content/site.css">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/bootstrap.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/bootstrap.min.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.min.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.min.map">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate-vsdoc.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.min.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/modernizr-2.6.2.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/respond.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/respond.min.js">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/_references.js">
+      <publishTime>02/15/2019 15:59:01</publishTime>
+    </File>
+    <File Include="app/templates/app/about.html">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/templates/app/contact.html">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/templates/app/index.html">
+      <publishTime>11/15/2018 21:22:31</publishTime>
+    </File>
+    <File Include="app/templates/app/layout.html">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/templates/app/login.html">
+      <publishTime>11/03/2018 15:30:29</publishTime>
+    </File>
+    <File Include="app/templates/app/loginpartial.html">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/templates/app/mlmaster.html">
+      <publishTime>11/04/2018 16:46:32</publishTime>
+    </File>
+    <File Include="app/templates/usertemplates/countrylist.html">
+      <publishTime>11/04/2018 16:46:43</publishTime>
+    </File>
+    <File Include="app/templates/usertemplates/userdetails.html">
+      <publishTime>11/03/2018 19:49:26</publishTime>
+    </File>
+    <File Include="app/tests.py">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="app/userurls.py">
+      <publishTime>02/02/2019 20:44:59</publishTime>
+    </File>
+    <File Include="app/views.py">
+      <publishTime>02/02/2019 20:39:47</publishTime>
+    </File>
+    <File Include="app/__init__.py">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="bin/AzureSetup.cfg">
+      <publishTime>02/15/2019 18:34:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.PythonTools.AzureSetup.exe">
+      <publishTime>01/13/2017 15:09:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.PythonTools.AzureSetup.exe.config">
+      <publishTime>11/24/2015 11:04:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.PythonTools.WebRole.dll">
+      <publishTime>01/13/2017 15:09:14</publishTime>
+    </File>
+    <File Include="bin/wfastcgi.py">
+      <publishTime>11/24/2015 11:04:26</publishTime>
+    </File>
+    <File Include="db.sqlite3">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="manage.py">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="MLSITE/settings.py">
+      <publishTime>11/15/2018 21:09:51</publishTime>
+    </File>
+    <File Include="MLSITE/urls.py">
+      <publishTime>02/02/2019 20:34:19</publishTime>
+    </File>
+    <File Include="MLSITE/wsgi.py">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="MLSITE/__init__.py">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="requirements.txt">
+      <publishTime>11/01/2018 11:59:54</publishTime>
+    </File>
+    <File Include="static/admin/css/autocomplete.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/admin/css/base.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/admin/css/changelists.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/admin/css/dashboard.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/admin/css/fonts.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/admin/css/forms.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/admin/css/login.css">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/css/responsive.css">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/css/responsive_rtl.css">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/css/rtl.css">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/LICENSE-SELECT2.md">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/select2.css">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/css/vendor/select2/select2.min.css">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/css/widgets.css">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/fonts/LICENSE.txt">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/fonts/README.txt">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Bold-webfont.woff">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Light-webfont.woff">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Regular-webfont.woff">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/calendar-icons.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/gis/move_vertex_off.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/gis/move_vertex_on.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-addlink.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-alert.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-calendar.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-changelink.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-clock.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-deletelink.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-no.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-unknown-alt.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-unknown.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-viewlink.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-yes.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/inline-delete.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/LICENSE">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/README.txt">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/search.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/selector-icons.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/sorting-icons.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/tooltag-add.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/img/tooltag-arrowright.svg">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/actions.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/actions.min.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/admin/DateTimeShortcuts.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/admin/RelatedObjectLookups.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/autocomplete.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/calendar.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/cancel.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/change_form.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/collapse.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/collapse.min.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/core.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/inlines.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/inlines.min.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/jquery.init.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/popup_response.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate.min.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate_init.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/SelectBox.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/SelectFilter2.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/timeparse.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/urlify.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/jquery.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/jquery.min.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/LICENSE.txt">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ar.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/az.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/bg.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ca.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/cs.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/da.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/de.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/el.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/en.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/es.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/et.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/eu.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fa.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fi.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/fr.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/gl.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/he.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hi.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hr.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/hu.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/id.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/is.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/it.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ja.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/km.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ko.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/lt.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/lv.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/mk.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ms.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/nb.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/nl.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pl.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pt-BR.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/pt.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ro.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/ru.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sk.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sr-Cyrl.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sr.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/sv.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/th.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/tr.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/uk.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/vi.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/zh-CN.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/i18n/zh-TW.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/LICENSE.md">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/select2.full.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/select2/select2.full.min.js">
+      <publishTime>02/15/2019 18:32:20</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/LICENSE.txt">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/xregexp.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/xregexp.min.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/app/content/bootstrap.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/content/bootstrap.min.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/content/site.css">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/bootstrap.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/bootstrap.min.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.min.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.min.map">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate-vsdoc.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.min.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.unobtrusive.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/modernizr-2.6.2.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/respond.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/respond.min.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/app/scripts/_references.js">
+      <publishTime>02/15/2019 18:32:19</publishTime>
+    </File>
+    <File Include="static/rest_framework/css/bootstrap-theme.min.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/css/bootstrap-tweaks.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/css/bootstrap.min.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/css/default.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/css/font-awesome-4.0.3.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/css/prettify.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/docs/css/base.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/docs/css/highlight.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/docs/css/jquery.json-view.min.css">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/docs/img/favicon.ico">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/docs/img/grid.png">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/docs/js/api.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/docs/js/highlight.pack.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/docs/js/jquery.json-view.min.js">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/fontawesome-webfont.eot">
+      <publishTime>02/15/2019 18:32:21</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/fontawesome-webfont.svg">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/fontawesome-webfont.ttf">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/fontawesome-webfont.woff">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/img/glyphicons-halflings-white.png">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/img/glyphicons-halflings.png">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/img/grid.png">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/js/ajax-form.js">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/js/bootstrap.min.js">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/js/coreapi-0.1.1.js">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/js/csrf.js">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/js/default.js">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/js/jquery-3.3.1.min.js">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="static/rest_framework/js/prettify-min.js">
+      <publishTime>02/15/2019 18:32:22</publishTime>
+    </File>
+    <File Include="test.py">
+      <publishTime>11/10/2018 18:26:08</publishTime>
+    </File>
+    <File Include="usermodule/usermodel.py">
+      <publishTime>02/02/2019 20:24:37</publishTime>
+    </File>
+    <File Include="usermodule/userprofile.py">
+      <publishTime>11/04/2018 15:10:32</publishTime>
+    </File>
+    <File Include="usermodule/__init__.py">
+      <publishTime>11/24/2015 11:04:20</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>02/15/2019 18:34:45</publishTime>
+    </File>
+    <File Include="web.debug.config">
+      <publishTime>02/15/2019 18:34:45</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

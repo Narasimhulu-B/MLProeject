@@ -1,0 +1,7 @@
+E:\GIT_Projects\MLSITE\Narasimhulu-B\MLProeject\MLSITE\bin\Microsoft.PythonTools.WebRole.dll
+E:\GIT_Projects\MLSITE\Narasimhulu-B\MLProeject\MLSITE\bin\AzureSetup.cfg
+E:\GIT_Projects\MLSITE\Narasimhulu-B\MLProeject\MLSITE\bin\Microsoft.PythonTools.AzureSetup.exe
+E:\GIT_Projects\MLSITE\Narasimhulu-B\MLProeject\MLSITE\bin\Microsoft.PythonTools.AzureSetup.exe.config
+E:\GIT_Projects\MLSITE\Narasimhulu-B\MLProeject\MLSITE\bin\wfastcgi.py
+E:\GIT_Projects\MLSITE\Narasimhulu-B\MLProeject\MLSITE\obj\Release\web.config
+E:\GIT_Projects\MLSITE\Narasimhulu-B\MLProeject\MLSITE\obj\Release\web.debug.config

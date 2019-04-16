@@ -10,6 +10,7 @@ from usermodule import userprofile
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from app.models import RP_USER_PROFILE
+from usermodule.userprofile import CountryOperations
 
 def home(request):
     """Renders the home page."""
@@ -68,6 +69,40 @@ def insert_user_profile(request):
         print(ex.args[0])
         return render(request,'usertemplates/userdetails.html',{"status":"Not Inserted"})
 
+def counry_view(request):
+    try:
+        countrylist=CountryOperations().get_all_countries()
+        cols= ['Code',
+                'Name',
+                'Continent',
+                'Region',
+                'IndepYear',
+                'Population',
+                'LifeExp',
+                'GNP',
+                'GNPOld',
+                'LocalName',
+                'GovtForm',
+                'HeadOfState',
+                'Capital',
+               ]
+        if request.method=="POST":
+
+            response_data= render(request,'usertemplates/countrylist.html',{"countrylist":countrylist, "cols":cols})
+            response_data.set_cookie("name","Narasimha")
+            response_data.set_cookie("gender","M")
+            return response_data
+        else:
+
+            response_data= render(request,'usertemplates/countrylist.html',{"countrylist":countrylist, "cols":cols})
+            response_data.set_cookie("name","Narasimha")
+            response_data.set_cookie("gender","M")
+            return response_data
+    except Exception as ex :
+        print(ex.args[0])
+        return render(request,'usertemplates/countrylist.html',{"countrylist":[], "cols":cols})
+
+
 #from django.http import HttpResponse
 #from django.template import loader
 
@@ -82,11 +117,11 @@ def insert_user_profile(request):
 #    }
 #    return HttpResponse(template.render(context, request))
 
-@api_view(["POST"])
+@api_view(["GET"])
 def get_userdata(request):
     try:
         data=getuserdata()
-
+        myname=request.COOKIES["name"]
         return Response({"data":data})
     except Exception as ex :
         return Response ({"Error":ex.args[0]})

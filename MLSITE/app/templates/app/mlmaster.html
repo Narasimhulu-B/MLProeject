@@ -34,9 +34,14 @@
             <p style="text-align:center">{{year}}- ML Site</p>
         </footer>
     </div>
-    <script src="{% static 'app/scripts/jquery-1.10.2.min.js' %}"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    {#<script src="{% static 'app/scripts/jquery-1.10.2.min.js' %}"></script>#}
     <script src="{% static 'app/scripts/bootstrap.min.js'%}"></script>
     <script src="{% static 'app/scripts/respond.min.js'%}"></script>
+    <script src="https://cdn.datatables.net/1.10.4/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.4/css/jquery.dataTables.min.css">
+
     {%block scripts %}{%endblock%}
 </body>
 </html>
+
