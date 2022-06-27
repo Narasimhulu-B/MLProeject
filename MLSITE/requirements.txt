@@ -131,7 +131,7 @@ msgpack-numpy==0.4.3.1
 multipledispatch==0.4.9
 murmurhash==0.28.0
 mxnet==1.0.0.post4
-mysql-connector-python==8.0.12
+mysql-connector-python==8.0.14
 navigator-updater==0.1.0
 nbconvert==5.3.1
 nbformat==4.4.0
