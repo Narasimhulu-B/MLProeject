@@ -133,7 +133,7 @@ murmurhash==0.28.0
 mxnet==1.0.0.post4
 mysql-connector-python==8.0.12
 navigator-updater==0.1.0
-nbconvert==5.3.1
+nbconvert==6.3.0
 nbformat==4.4.0
 netaddr==0.7.19
 netifaces==0.10.6
