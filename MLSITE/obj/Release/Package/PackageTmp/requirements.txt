@@ -116,7 +116,7 @@ locket==0.2.0
 lockfile==0.12.2
 logutils==0.3.5
 lxml==4.1.0
-Mako==1.0.7
+Mako==1.2.2
 Markdown==2.6.11
 MarkupSafe==1.0
 matplotlib==2.0.1
